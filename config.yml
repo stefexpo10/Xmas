@@ -1,0 +1,14 @@
+# Plugin de Craciun - setari
+
+# Pune zapada (straturi de zapada) pe jos, treptat, in jurul jucatorilor
+snow-layers: true
+# Raza (in blocuri) in jurul fiecarui jucator unde apare zapada
+radius: 24
+# Cate pozitii incearca sa acopere pe secunda, per jucator
+attempts-per-second: 120
+# Limita de blocuri de zapada puse (protectie pentru server)
+max-snow-blocks: 20000
+
+# Ploaie/ninsoare reala (in biomurile calde apare ploaie, in cele reci ninsoare)
+# Fulgii de zapada (particule) apar oricum peste tot
+real-weather: true

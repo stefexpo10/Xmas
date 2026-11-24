@@ -1,0 +1,14 @@
+name: XmasPlugin
+version: '1.0'
+main: ro.xmas.XmasPlugin
+api-version: '1.21'
+description: Craciun pe server - zapada si titlu mare
+commands:
+  xmas:
+    description: Porneste sau opreste Craciunul
+    usage: /xmas <on|off>
+    permission: xmas.use
+permissions:
+  xmas.use:
+    description: Permite folosirea comenzii /xmas
+    default: op
